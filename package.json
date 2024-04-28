@@ -15,7 +15,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.33.0",
+    "@playwright/test": "^1.43.1",
+    "@types/node": "^20.12.7",
     "dotenv": "^16.0.3"
-  }
+  },
+  "comment_line7": "by adding '/' behind 'tests' means we are running for the 'tests' folder",
+  "comment_line8": "for folders with names starting with 'tests'",
+  "comment_line11": "only run tests with the @smoke tag",
+  "comment_line12": "only run tests without the @smoke tag"
 }
